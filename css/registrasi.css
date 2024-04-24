@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+html{
+  font-size: 20px;
+  overflow-x: hidden;
+  background-image: url('../img/bglogin.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main{
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.regis{
+  border: 1px solid black;
+  padding: 20px;
+  background-color: rgba(4, 29, 23, 0.5);
+box-shadow: 0px 0px 25px 10px black;
+color: white;
+text-align: center;
+}
+form{
+  width: 15rem;
+  height: 25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  align-content: space-evenly;
+}
+form #nama, form #username, form #email, form #password{
+  padding: 0px 25px;
+  width: 20rem;
+  height: 2rem;
+}
+form #alamat{
+  padding: 0px 25px;
+  width: 20rem;
+  height: 5rem;
+}
+form .submit{
+  flex-basis: 20rem;
+  height: 2rem;
+}
+.regis .login{
+  color: yellow;
+}
